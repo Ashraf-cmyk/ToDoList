@@ -1,0 +1,90 @@
+body {
+  font-family: Tahoma;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  background-color: rgb(61, 61, 61);
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+h1,
+h2 {
+  font-weight: bolder;
+}
+
+#page-banner {
+  background: #eee;
+  padding: 10px 0;
+  background-color: #d19411;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#page-banner h1 {
+  width: 100%;
+  margin-left: 40%;
+}
+
+#add-task {
+  font-family: inherit;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-task input {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+}
+
+#add-task button {
+  border: 5px solid #ffffff;
+  background: #d12e11;
+  padding: 10px 20px;
+  font-size: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: default;
+  margin: 20px 10px;
+  color: white;
+}
+
+#task-list {
+  margin: 10px 10px;
+}
+
+#task-list ul {
+  padding: 0;
+}
+
+#task-list li {
+  list-style-type: none;
+  padding: 20px;
+  border: 1px solid #d19411;
+  margin: 20px 10px;
+  cursor: default;
+  color: #d19411;
+  border-radius: 20px;
+}
+
+#task-list li input {
+  margin-right: 50px;
+}
+
+#task-list li img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  cursor: default;
+}
+
+.strike {
+  text-decoration: line-through;
+}
